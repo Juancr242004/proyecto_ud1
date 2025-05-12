@@ -14,7 +14,7 @@ Este script en Python permite comprobar si una cadena de texto es un palíndromo
 Clona este repositorio y ejecuta el script:
 
 ## Bash
-git clone https://github.com/tuusuario/proyecto-unidad1.git
+git clone https://github.com/Juancr242004/proyecto_ud1
 cd proyecto-unidad1
 python3 palindromo.py
 
