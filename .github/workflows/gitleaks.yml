@@ -1,0 +1,13 @@
+name: Escaneo de push
+
+on: [push]
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Utilizando Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          fail: true
